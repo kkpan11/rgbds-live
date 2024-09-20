@@ -6,7 +6,8 @@
   "description": "A live RGBDS programming environment in the browser",
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "format": "prettier --write --end-of-line auto ."
   },
   "repository": {
     "type": "git",
@@ -22,7 +23,8 @@
     "ace-builds": "^1.4.12",
     "jszip": "^3.10.1",
     "lz-string": "^1.5.0",
-    "vite": "^4.4.9",
-    "vite-plugin-static-copy": "^0.17.0"
+    "prettier": "3.3.3",
+    "vite": "^4.5.5",
+    "vite-plugin-static-copy": "^0.17.1"
   }
 }
